@@ -13,7 +13,6 @@ namespace Study_Link
 
             var tmp = list.Where(x => x >= 10).Select(x => x.ToString()+"naruko");
 
-			foreach (var test in tmp )
             {
                 Console.WriteLine(test);
             }
